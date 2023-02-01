@@ -11,16 +11,26 @@ End Sub
 Private Sub SetTitle()
     Range("A2").Select
     ActiveCell.FormulaR1C1 = "模块名称"
+    
     Range("B2").Select
     ActiveCell.FormulaR1C1 = "功能"
+
     Range("C2").Select
     ActiveCell.FormulaR1C1 = "功能说明"
+
     Range("D2").Select
     ActiveCell.FormulaR1C1 = "测试用例"
+
     Range("E2").Select
-    ActiveCell.FormulaR1C1 = "步骤"
+    If Not IsEmpty(Range("E2")) And IsNumeric(Range("E2").Value) Then
+        ActiveCell.FormulaR1C1 = "步骤"
+    Else
+        ActiveCell.FormulaR1C1 = "前提"
+    End If
+
     Range("F2").Select
     ActiveCell.FormulaR1C1 = "业务操作"
+
     Range("G2").Select
     ActiveCell.FormulaR1C1 = "预期结果"
 End Sub

@@ -1,7 +1,7 @@
 # Mindmap AutoCase for ZKSS
   <h1 align="center">
     <picture>
-      <img alt="ZKSS" src="./pic/zkss.png">
+      <img alt="ZKSS" src="./pic/zkss.png" width=367.5>
     </picture>
   </h1>
 
@@ -20,7 +20,7 @@
 6. 测试用例ID
 7. 测试用例
 8. 测试步骤
-	1. 步骤
+	1. 步骤 or 前提
 	2. 业务操作
 	3. 预期结果
 9. 测试日期
@@ -30,9 +30,11 @@
 
 其中`1~8`属于测试用例，`9~12`属于测试过程与结果
 
-Mindmap适用编辑树状结构。除去`3.角色`和`6.测试ID`，`1~8`剩余标题用Mindmap编辑
+Mindmap适用编辑树状结构。除去`3.角色`和`6.测试ID`，`1~8`剩余表头用Mindmap编辑
 
 Mindmap编辑完成后，使用Excel VBA脚本自动生成`3 6 9 10 11 12`项表头和测试id，并调整格式。最后手动设置角色
+
+*暂不生成`2.子模块`表头，`8.1 步骤 or 前提`根据表格内容猜测自动生成步骤或前提，默认为前提*
 
 # 📘使用
 
