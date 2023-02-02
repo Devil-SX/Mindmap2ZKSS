@@ -1,10 +1,13 @@
 ' encoding = GB 2312
 Sub Main()
-    SetTitle
-    SetLayout
-    SetStyle
-    GenerateID
-    AutoFit
+    For Each st In ThisWorkbook.Sheets
+        st.Activate 
+        SetTitle
+        SetLayout
+        SetStyle
+        GenerateID
+        AutoFit
+    Next
 End Sub
 
 

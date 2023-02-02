@@ -11,7 +11,7 @@
 
 ![](../pic/1.png)
 
-在Xmindmap内导出Excel文件
+在Xmindmap内导出Excel文件。表格布局选择”合并单元格“，中心主题位置选择”行1“。
 
 *注：Pro版本Mindmap才能具有导出权限*
 
@@ -21,18 +21,18 @@
 
 ![](../pic/3.png)
 
-点击 `开发工具-Visual Basic`
+点击 “开发工具-Visual Basic”
 
 ![](../pic/4.png)
 
-右键项目，点击`导入文件`
+右键项目，点击”导入文件“
 
 ![](../pic/5.png)
 
-点击 `开发工具-宏`，此时出现`GenerateID`宏和`Main`宏
+点击 ”开发工具-宏“，此时出现`GenerateID`宏和`Main`宏
 
-- GenerateID：自动生成并刷新测试用例ID，至少一次运行`Main`后使用。测试ID的格式是`gep_[系统名]_gn_[模块名]_id`
-- Main：生成剩余表头，并调整格式，调用`GenerateID`生成测试用例ID
+- GenerateID：对当前工作表自动生成并刷新测试用例ID，至少一次运行`Main`后使用。测试ID的格式是`gep_[系统名]_gn_[模块名]_id`
+- Main：对工作簿下所有工作表生成剩余表头，并调整格式，调用`GenerateID`生成测试用例ID。
 
 ![](../pic/6.png)
 
