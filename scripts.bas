@@ -1,6 +1,7 @@
 ' encoding = GB 2312
 Sub Main()
     For Each st In ThisWorkbook.Sheets
+        st.Name = Range("A1").Value
         st.Activate 
         SetTitle
         SetLayout
