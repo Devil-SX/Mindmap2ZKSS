@@ -1,17 +1,17 @@
 # Tutorial
 # 💻环境
 - Windows
-    - Mindmap8 Update 9 Pro
+    - XMind8 Update 9 Pro
     - Microsoft Excel
 
 # 🚧快速上手
 >以下教程使用到的文件在`example/`文件夹下
 
-使用Mindmap编写测试用例（格式参考`template.xmind`模板)
+使用XMind编写测试用例（格式参考`template.xmind`模板)
 
 ![](../pic/1.png)
 
-在Xmindmap内导出Excel文件。表格布局选择”合并单元格“，中心主题位置选择”行1“。
+在XMind内导出Excel文件。表格布局选择”合并单元格“，中心主题位置选择”行1“。
 
 *注：Pro版本Mindmap才能具有导出权限*
 

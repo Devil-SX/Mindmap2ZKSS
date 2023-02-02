@@ -7,7 +7,7 @@
 
 # ✨功能
 - 使用Mindmap编写测试用例
-- 将Mindmap文件转化为中科山水测试用例格式Excel
+- 将Xmind文件转化为中科山水测试用例格式Excel
 - 自动生成测试ID
 
 # 💡过程
@@ -18,7 +18,7 @@
 4. 功能
 5. 功能说明
 6. 测试用例ID
-7. 测试用例
+7. 测试用例 
 8. 测试步骤
 	1. 步骤 or 前提
 	2. 业务操作
@@ -42,5 +42,5 @@ Mindmap编辑完成后，使用Excel VBA脚本自动生成`3 6 9 10 11 12`项表
 
 # 🪄待开发功能
 - 自动生成角色项
-- 集成自动化Mindmap导出Excel，Excel执行宏
+- 集成自动化XMind导出Excel，Excel执行宏
 - 和Testlink等测试管理工具管理测试用例，[可参考该仓库实现](https://github.com/zhuifengshen/xmind2testcase)
